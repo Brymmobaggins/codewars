@@ -4,6 +4,7 @@
 // Considering these factors, write a function that tells you if it is possible to get to the pump or not.
 
 // Function should return true if it is possible and false if not.
+ 
 
 function zeroFuel(distanceToPump, mpg, fuelLeft){
     return mpg * fuelLeft >= distanceToPump ? true : false
