@@ -7,6 +7,7 @@
 // 6, 10 -- > 32
 // 3, 3 -- > 9
 
+// My solution
 function areaOrPerimeter(length, width){
 
     return length === width ? length * width : (length + width) * 2
