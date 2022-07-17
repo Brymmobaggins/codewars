@@ -20,4 +20,4 @@ function validateCode(pin) {
     }
 
 }
-console.log(validateCode("5343567"))
+console.log(validateCode("5343567")) 

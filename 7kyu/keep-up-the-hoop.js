@@ -6,7 +6,6 @@
 // If he doesn't get 10 hoops, return the string "Keep at it until you get it".
 
 // solution
-
 function hoopCount(n){
     return n >= 10 ? "Great, now move on to tricks" : "keep at it until you get it"
 }
