@@ -11,4 +11,4 @@ function checkValue(a, x) {
         else
             return false
     }
-console.log(checkValue([5,7,8], 0)) // false
+console.log(checkValue([5,7,8], 0))            // false
