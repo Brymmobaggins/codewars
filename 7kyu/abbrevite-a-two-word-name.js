@@ -21,7 +21,7 @@ console.log(abrrevName("Ibrahim Bakare"))
 
 // my second solution 
 function abbrevName(name){
-    let words = name.split(" ")               // split the element in the array
+    let words = name.split(" ")                                   // split the element in the array
     return (words[0][0] + "." + words[1][0]).toUpperCase()
 }
 console.log(abbrevName('Kyle Simpson'))
