@@ -23,12 +23,12 @@ function getCount(string) {
     let count = 0
     let vowels = ["a", "e", "i", "o", "u"]
     for (let i = 0; i < string.length; i++) {            // loop throught the string
-        for (let j = 0; j < vowels.length; j++) {        // loop through the vowl
+        for (let j = 0; j < vowels.length; j++) {        // loop through the vowel
             if (string[i] === vowels[j]) {
                 count++
             }
         }
     }
-    return count                                        // retun count
+    return count                                        // return count
 }
 console.log(getCount('Javascript')) 
