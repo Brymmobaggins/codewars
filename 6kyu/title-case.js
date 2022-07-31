@@ -5,13 +5,13 @@
 
 
 function titleCase(str){
-    let newString = str.split(" ")                // split every word inside
-    let newArray = []                             // create new array
+    let newString = str.split(" ")                // split every word with string
+    let newArray = []                             // create an empty new array
     for(let i = 0 ; i < newString.length; i++){   // loop through the array 
-        // convert the first letter inside first word to uppercase and other lower case
+        // convert the first letter inside each word to uppercase and other to lower case
          newArray[i]= newString[i][0].toUpperCase() + newString[i].slice(1).toLowerCase() 
     }
-    return newArray.join(" ")                      // join the word 
+    return newArray.join(" ")                      // join new word  and return it
 }
   
 console.log(titleCase("I'm a little tea pot"))      //  I'm A Little Tea Pot  
