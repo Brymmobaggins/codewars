@@ -7,8 +7,8 @@
 
 // first solution
 function getCounts(x){
-    let count = 0                                                  // create a varible for count
-    for(let i = 0; i < x.length; i++){                             // loop through the string 
+    let count = 0                              // create a varible for count
+    for(let i = 0; i < x.length; i++){          // loop through the string 
         if(x[i] == "a" || x[i] == "e" || x[i] == "i" || x[i] == "0" || x[i] === "u"){
             count++
         }
@@ -22,13 +22,13 @@ console.log(getCounts("Ibrahim"))      // counts = 2
 function getCount(string) {
     let count = 0
     let vowels = ["a", "e", "i", "o", "u"]
-    for (let i = 0; i < string.length; i++) {            // loop throught the string
-        for (let j = 0; j < vowels.length; j++) {        // loop through the vowel
-            if (string[i] === vowels[j]) {
-                count++
+    for (let i = 0; i < string.length; i++) {      // loop through the elemnent inside the string array
+        for (let j = 0; j < vowels.length; j++) {  // loop through the elment inside the vowel array
+            if (string[i] === vowels[j]) {         // if statement to check each iteration of string is the same as each iteration of vowel
+                count++                          // countinue counting
             }
         }
     }
-    return count                                        // return count
+    return count                                 // return count
 }
-console.log(getCount('Javascript')) 
+console.log(getCount('Javascript'))             // count = 3
