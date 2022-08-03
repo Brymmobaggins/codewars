@@ -19,7 +19,7 @@ console.log(getCounts("Ibrahim"))      // counts = 2
 
 
 // second solution 
-function getCount(string) {
+function getCount(string) {g
     let count = 0
     let vowels = ["a", "e", "i", "o", "u"]
     for (let i = 0; i < string.length; i++) {      // loop through the elemnent inside the string array
