@@ -6,14 +6,14 @@
 // filter_list([1, 2, 'aasf', '1', '123', 123]) == [1, 2, 123]
 
 function filter_list(list) {
-    let newList = []
-    for (let i = 0; i < list.length; i++) {
-        if (list[i] === list[i].toString()) {
+    let newList = []                // create a variable that hold the new list to be return
+    for (let i = 0; i < list.length; i++) { // loop through the element inside the list
+        if (list[i] === list[i].toString()) { // if statement to check if each iteration is a string
             list[i] = ""
-        }else{
-            newList.push(list[i])
+        }else{                       
+            newList.push(list[i])       // push element inside the `newlist`
         }
     }
-    return newList
+    return newList                        // return new list
 }
 console.log(filter_list([1, 2, 'aasf', '1', '123', 123]))
