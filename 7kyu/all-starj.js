@@ -30,3 +30,4 @@ console.log(strCount("hello javascript", "a")) //  2
 
 
 
+
