@@ -11,8 +11,9 @@ function min(arr, toReturn) {
         if (toReturn === 'value') {   // if statement to check if `toreturn is 'value
             return Math.min(...arr)  // if true, return return the min value inside the array
         } else {
-            return i                // otherwise return the index  `i`
+            return arr.indexOf(Math.min(...arr)) // otherwise return the index of minium value
         }
     }
 }
-console.log(min([1, 2, 3, 4, 5], 'index'))  // 0
+console.log(min([100, 20, 3, 4, 5], 'value'))  // 3
+console.log(min([100, 20, 3, 4, 5], 'index'))  // 2
