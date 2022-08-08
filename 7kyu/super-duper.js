@@ -4,10 +4,10 @@
 
 function problem(x){
 
-    if (typeof x === "string"){          // check if it is a string
-        return "Error"
+    if (typeof x === "string"){          // if statement to check if the data type is a string
+        return "Error"                  // if true return error
     }else{
-        return x * 50 + 6
+        return x * 50 + 6       
     }
     
 }
