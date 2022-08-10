@@ -7,13 +7,16 @@
 // my solution
 function fakebin(x) {
 
-    let result = ""
-    for (let i = 0; i < x.length; i++) {
-        if (x[i] < 5) {
-            result += 0
-        } else if (x[i] <= 5) {
+    let result = ""              // create a variable that holds the result
+    for (let i = 0; i < x.length; i++) {  // loop through th array
+        if (x[i] < 5) {          // if statement to check is check if each iteration is less than 5
+            result += 0          
+        } else if (x[i] >= 5) {
             result += 1
         }
     }
     return result
 }
+console.log(fakebin("6"))  // 1
+console.log(fakebin("3"))  // 0
+
