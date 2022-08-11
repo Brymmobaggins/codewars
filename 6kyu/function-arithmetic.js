@@ -24,7 +24,7 @@ function arithmetic(a, b, operator) {
         case "subtract":
             return a - b
         case "multiply":
-            return a * bgit
+            return a * b
         case "divide":
             return a / b
     }
