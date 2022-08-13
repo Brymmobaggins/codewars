@@ -8,26 +8,37 @@
 // ["Max", "John", "Mark"]-- > "Max, John and Mark like this"
 // ["Alex", "Jacob", "Mark", "Max"]-- > "Alex, Jacob and 2 others like this"
 
-function Islikes(names) {
-    let user = ""
-    let count = 0
+// first solution
+function likes(names) {
 
-    for (let i = 0; i < names.length; i++) {
-        if (names[0] == "") {
-            user = "no one likes this"
-        }
-        if (names[0] == names[i]) {
-            user = names[0] + " likes this"
-        } else if ( names[1] == names[i] ){
-            user = names[0] + " and " + names[1] + " like this"
-        }else if (names[2] == names[i]){
-            user = names[0] + ", " + names[1] + " and " + names[2] + " like this"
-        }else if (names[3] == names[i]){
-            count += 1
-            user = names[0] + ", " + names[1] + " and " + count + " others like this"
-        }
+    if (names.length == 0) {        // if statement to check if the length of names and return the given string
+        return "no one likes this"
+    } else if (names.length == 1) {
+        return names[0] + " likes this"
+    } else if (names.length == 2) {
+        return names[0] + " and " + names[1] + " like this"
+    } else if (names.length == 3) {
+        return names[0] + ", " + names[1] + " and " + names[2] + " like this"
+    } else if (names.length >= 4) {
+        return names[0] + ", " + names[1] + " and " + (names.length - 2) + " others like this"
     }
-    return user
 
 }
-console.log(Islikes(["peter", "kola", "Shola", "bola"]))
+console.log(likes(["Alex", "Jacob", "shola", "bola", "dele", "ade"]))  //  Alex, Jacob and 4 others like this
+
+// second solution
+
+function likes(names) {
+    if (names.length == 0) {
+        return 'no one likes this';
+    } else if (names.length == 1) {
+        return names[0] + ' likes this';
+    } else if (names.length == 2) {
+        return names[0] + ' and ' + names[1] + ' like this';
+    } else if (names.length == 3) {
+        return names[0] + ', ' + names[1] + ' and ' + names[2] + ' like this';
+    } else {
+        return names[0] + ', ' + names[1] + ' and ' + (names.length - 2) + ' others like this'
+    }
+}
+console.log(likes(["Alex", "Jacob", "shola", "bola", "dele", "ade"])) //["Alex", "Jacob", "shola", "bola", "dele", "ade"]
