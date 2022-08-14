@@ -4,9 +4,9 @@
 
 
 function reversedSeq(n) {
-    let result = []            // create a variable that hold our result
-    for (let i = n; i > 0; i--) { // loop through the number
-        result.push(i)            // push each in index inside our result
+    let result = []            // create an array
+    for (let i = n; i > 0; i--) { // loop down from n to 1, that is from the number to 1
+        result.push(i)            // push each i to the result
     }
 
     return result               // return result
