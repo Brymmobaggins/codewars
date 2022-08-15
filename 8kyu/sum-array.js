@@ -16,12 +16,13 @@
 // You can assume that you do get an array and if the array is empty, return 0.
 
 // my solution
-function sum(numbers){
-    let result = 0
-    for (let i = 0; i < numbers.length; i++) {
-        result += numbers[i];
-        return result
-        
+function sum(numbers) {
+    let result = 0                   // create a variable that holds the result
+    for (let i = 0; i < numbers.length; i++) { // loop through the `numbers` array 
+        result += numbers[i];             // add each iteration of `number` array and assign it to `result`
+
+
     }
-    return result
+    return result                    // return result
 }
+console.log(sum([1, 5.2, 4, 0, -1])) // 9.2
