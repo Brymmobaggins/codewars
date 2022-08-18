@@ -7,11 +7,11 @@
 
 function sumOfNegative(array){
     let result = 0
-    for(let i = 0; i < array.length; i++){    // loop through the array
-        if (array[i] < 0){
-         result += array[i]                  // sum of the number less than zero
+    for(let i = 0; i < array.length; i++){  // loop through the array
+        if (array[i] < 0){             // if statement to check if item in each iteration is +tive interger
+         result += array[i]            // if true, sum of the element an assign it to result
         }
     }
-    return result                          // the total
+    return result                       // return result
 }
-console.log(sumOfNegative([-4, -5, 6]))
+console.log(sumOfNegative([-4, -5, 6]))  // -9
