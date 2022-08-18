@@ -18,7 +18,6 @@
 
 
 // second Solution
-
 function countSheep(arrayOfSheep) {
     let countOfSheep = 0
     for (let i = 0; i < arrayOfSheep.length; i++) {
