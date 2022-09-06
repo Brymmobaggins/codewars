@@ -11,3 +11,4 @@ function sentenceSmash(word){
     let arrayWords = word.join(" ")
     return arrayWords
 }
+console.log(sentenceSmash(["Hello", "my", "mother", "is", "cool"]))
