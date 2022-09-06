@@ -9,10 +9,14 @@
 
 function repeat(number, string) {
 
-    return string.repeat(number)
+    return number.repeat(string)
 }
 
+console.log(repeat("hello", 5))   // hellohellohellohellohello
+
+
 // second solution 
+
 function repeatString(str, num){
     let newString  = ""
     // loop through the number

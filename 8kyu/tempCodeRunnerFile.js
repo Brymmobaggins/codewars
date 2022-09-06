@@ -1,8 +1,10 @@
-function mix(x){
-//     let numberSum = 0
-//     for (let i = 0; i < x.length; i++) {
-//         numberSum += Number(x[i]);
+function repeatString(str, num){
+//     let newString  = ""
+//     // loop through the number
+//     for(let i = 0; i < num; i++){
+//         newString += str
 //     }
-//     return numberSum
+//     return newString
 // }
-// console.log(mix([4, 5, 6, "4", "5"]))
+// console.log(repeatString('abc', 3))   // abcabcabc
+
