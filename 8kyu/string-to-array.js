@@ -8,5 +8,6 @@
 // my solution
 function stringToArray(string){
 
- return string.split(" ")
+ return string.split(" ")      
 }
+console.log(stringToArray("i love javascript")) //  [ 'i', 'love', 'javascript" ]
