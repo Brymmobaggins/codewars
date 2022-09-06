@@ -21,7 +21,6 @@ function sum(numbers) {
     for (let i = 0; i < numbers.length; i++) { // loop through the `numbers` array 
         result += numbers[i];             // add each iteration of `number` array and assign it to `result`
 
-
     }
     return result                    // return result
 }
