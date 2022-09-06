@@ -4,7 +4,7 @@
 
 // Note: if there is nothing to sum, the sum is default to 0.
 
-function sumOfPostive(array){
+function sumOfPositive(array){
     let total = 0;
     for (let i = 0; i < array.length; i++) {    // loop through the array
         if(array[i] >= 0){
@@ -15,3 +15,4 @@ function sumOfPostive(array){
     return total                               // Return total
 }
 
+console.log(sumOfPositive([4, -34, -5, 2]))    // 6

@@ -11,5 +11,5 @@ function Clock(h, m, s) {
 
     return hour * minute * seconds
 
-
 }
+console.log(Clock(5,5,5))
