@@ -6,4 +6,5 @@
 function converToString(string){
     return Number(string)
 }
+console.log(converToString("456"))    // 456
 
