@@ -10,3 +10,4 @@ function simpleMultiplication(number) {
 
     }
 }
+console.log(simpleMultiplication(3))  // 27
