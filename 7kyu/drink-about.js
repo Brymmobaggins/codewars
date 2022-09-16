@@ -31,4 +31,4 @@ function peopleWithAgeDrink(old) {
         return "drink whisky"
     }
 };
-console.log(peopleWithAgeDrink(21))
+console.log(peopleWithAgeDrink(21))       

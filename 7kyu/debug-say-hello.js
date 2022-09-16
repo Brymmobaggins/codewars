@@ -10,7 +10,7 @@ function sayHello(name){
 console.log(sayHello("Mr Bakare"))   // Hello, Mr Bakare
 
 function sayHello(name){
-    return `Hello, ${name}`
+    return `Hello, ${name}`         // using template literals
 
 } 
 console.log(sayHello("Mr daniel"))   // Hello, Mr daniel
