@@ -13,7 +13,7 @@
 function number(busStop) {
     let numOfPeople = 0     // create a variable that holds number of people
     for (let i = 0; i < busStop.length; i++) { // loop through the array 
-        numOfPeople += busStop[i][0] - busStop[i][1] // subract the first element from the second of each iteration and assign it to numOfPeople
+        numOfPeople += busStop[i][0] - busStop[i][1] // subract the first element from the second element of each iteration/pair and assign it to numOfPeople
     }
     return numOfPeople          // return num of people
 
