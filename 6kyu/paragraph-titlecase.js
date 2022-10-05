@@ -25,7 +25,7 @@ function titleCase(title, minorWords) {
             if (newTitle[i] === newMinorWords[j]) {
                 result[i] = newTitle[0].toUpperCase() + newTitle[i].slice(1).toLowerCase()
             }else{
-                rs
+                
             }
         }
     }
