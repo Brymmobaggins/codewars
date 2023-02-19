@@ -10,3 +10,12 @@ function take(array, n) {
     return result
 }
 console.log(take([10, 20, 3, 34, 51, 6, 8], 5)) // [ 1, 2, 3, 4, 5 ]
+
+// alternate solution
+
+function take(array, number) {
+
+    // the slice method takes two parameter(start, end)
+    return array.slice(0, number)
+}
+console.log(take([10, 20, 3, 34, 51, 6, 8], 5)) 
