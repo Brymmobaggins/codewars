@@ -23,25 +23,24 @@ function removeVowel(str) {
 console.log(removeVowel("JAvAScript is awesome")) // JvScrpt s wsm
 
 // second solution
-// function removeVowel(str) {
-//     let newString = str.split("")
-//     let vowel = ["a", "e", "i", "o", "u"]
-//     for (let i = 0; i < str.length; i++) {
-//         let char = str[i].toLowerCase()
-//         for (let j = 0; j < vowel.length; j++) {
-//             if (char === j[i]) {
-//                 newString[i] = ""
-//             }
-//         }
-//     }
-//     return newString.join("")
-// }
-
-// console.log(removeVowel("life is beautiful"))
+function removeVowel(str) {
+    let newString = str.split("")
+    let vowel = ["a", "e", "i", "o", "u"]
+    for (let i = 0; i < newString.length; i++) {
+        let char = newString[i].toLowerCase()
+        for (let j = 0; j < vowel.length; j++) {
+            if (char[i] === j[i]) {
+                char[i] = ""
+            }
+        }
+    }
+    return newString.join("")
+}
+console.log(removeVowel("life is beautiful"))
 
 // third solution using regular expression
 
-// function removeVowel(str){
-//     return str.replace(/[aeiou]/ig,'')
-// }
-// console.log(removeVowel("life is beautiful"))   // lf s btfl
+function removeVowel(str){
+    return str.replace(/[aeiou]/ig,'')
+}
+console.log(removeVowel("life is beautiful"))   // lf s btfl
