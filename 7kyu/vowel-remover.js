@@ -14,10 +14,10 @@ function vowelRemover(string) {
     for (let i = 0; i < newStr.length; i++) { // loop through the input string
         for (let j = 0; j < vowels.length; j++) { // loop through the vowels
             if ( newStr[i] === vowels[j]) { // condion to check for if for index value input is equals to index value of vowel 
-                newStr[i] = ""           // if yes, remove the value
+                newStr[i] = ""           // if yes, index value of the string is assign emtpy
             }
         }
     }
-    return newStr.join("")              // return the string and join them together
+    return newStr.join("")              // return the remain string and join them together
 }
 console.log(vowelRemover("codewars"))
