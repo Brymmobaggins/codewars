@@ -17,7 +17,7 @@ function bmi(weight, height){
     } else if (bmiResult <= 25.0){
         return "Normal"  
     } else if ( bmiResult <= 30.0){
-        return "Overweight"
+        return "Overweight
     }else{
         return "Obese"
     }
