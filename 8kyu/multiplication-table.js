@@ -13,4 +13,14 @@
 // 9 * 5 = 45
 // 10 * 5 = 50
 
-function multi
+// solution
+
+function multiTable(number){
+
+    let table = []        // create an empty array
+    for(let i = 1; i <= 10; i++){  // loop through the given number
+        table.push(`${i} * ${number} = ${i * number}`)  // push the value and product inside the array
+    }
+    return table.join('\n') // return the table with a newline
+}
+console.log(multiTable(10)) // 
