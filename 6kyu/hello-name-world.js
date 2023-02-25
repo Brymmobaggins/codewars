@@ -15,24 +15,19 @@ function hello(name) {
     if (name) {
         return "Hello, " + name.substring(0, 1).toUpperCase() + name.substring(1).toLowerCase() + "!"
     } else {
-        return "Hello, World"
+        return "Hello, World!"
     }
 
 }
-console.log(hello("johN"))
+console.log(hello("johN")) // Hello, John!
 
 // second solution
 function hello(name){
-    if(name){
+    if(name){     // condtion to check if name input is supplied
         return "Hello, " + name[0].toUpperCase() + name.slice(1).toLowerCase() + "!"
-    }else{
+    }else{      
         return "Hello, World!"
     }
 }
-
-
-// third solution
-const hello = s =>
-    `Hello, ${s ? (s[0].toUpperCase() + s.slice(1).toLowerCase()) : 'World'}!`
-
+console.log(hello("alice")) // Hello, Alice!
 
