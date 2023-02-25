@@ -18,4 +18,4 @@ function take(array, number) {
     // the slice method takes two parameter(start, end)
     return array.slice(0, number)
 }
-console.log(take([10, 20, 3, 34, 51, 6, 8], 5)) 
+console.log(take([10, 20, 3, 34, 51, 6, 8], 5)) // [ 10, 20, 3, 34, 51 ]
