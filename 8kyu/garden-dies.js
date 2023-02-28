@@ -12,4 +12,4 @@ function rain(rainAmount){
         return "Your plant has had more than enough of water today "
     }
 }
-console.log(rain(3))
+console.log(rain(3)) // you need give your plan 30mm of water
