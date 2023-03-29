@@ -14,9 +14,14 @@
 // All arrays or lists will always have at least one element, so you don't need to check the length. Also, your function will always get an array or a list, you don't have to check for null, undefined or similar.
 
 function minMax(array){
-    let min = Math.max(...array)
-    let max = Math.min(...array)
 
+    // get the minimum value from the array and assign it to a variable
+    let min = Math.max(...array)
+
+    // get the maximum value from the array and assign it to a variable
+    let max = Math.min(...array)  
+      
+    // output the max value and min value
     return [min, max]
 }
-console.log(minMax([1,2,4,5,6]))
+console.log(minMax([1,2,4,5,6]))  // [1, 6]
