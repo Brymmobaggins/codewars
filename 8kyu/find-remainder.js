@@ -20,8 +20,20 @@
 // n = 0
 // m = 1
 
-function remainder(n, m){
+// function remainder(n, m){
 
-    return n > m ? n % m : m % n
+//     return n > m ? n % m : m % n
+// }
+// console.log(remainder(2,90))
+
+
+
+// aternate solution
+function remainder(n, m){
+    if (n > m) {
+        return n % m  
+    } else{
+        return m % n
+    }
 }
-console.log(remainder(2,90))
+console.log(remainder(6, 12))
