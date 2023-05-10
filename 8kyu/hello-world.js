@@ -1,5 +1,5 @@
 // Description:
-// Make a simple function called greet that returlsns the most - famous "hello world!".
+// Make a simple function called greet that returns the most - famous "hello world!".
 
 
 function greet(){
