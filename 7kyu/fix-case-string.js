@@ -21,6 +21,7 @@ function solve(string) {
         }
     }
     // if lower case counter > or == upper case counter ?  convert string to lowercase, else convert string to upper case
+
     return lower >= upper ? string.toLowerCase(): string.toUpperCase()
 
 
