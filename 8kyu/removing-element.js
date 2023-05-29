@@ -30,3 +30,5 @@ function removeEveryOther(arr) {
     return newArr     // return the new array
 }
 console.log(removeEveryOther(["Keep", "Remove", "Keep", "Remove", "Keep"]))
+
+
