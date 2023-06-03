@@ -21,7 +21,7 @@ function findMean(number){
     for(let i = 0; i < number.length; i++){
         sum += number[i]
     }
-    return sum / number.length
+    return sum / (number.length)
 }
 console.log(findMean([3, 5, 6,7, 8]))
 
