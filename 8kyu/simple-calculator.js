@@ -22,6 +22,7 @@ function calculator(a, b, sign) {
             return 'unknown value';
     }
 }
+console.log(calculator(10, 8, "-")) // 2
 
 // solution 2
 
@@ -37,3 +38,4 @@ function calculator(a, b, sign) {
             return "unknown  value"
     }
 }
+console.log(calculator(10, 8, "+")) // 18
