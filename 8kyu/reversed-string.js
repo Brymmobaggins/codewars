@@ -4,7 +4,9 @@
 // 'word'   => 'drow'
 
 function reversedString(string){
-    return string.split("").reverse("").join("")  // split the string, reverse the string and join the string
+        // split input into array of strings, reverse the strings and join the strings
+
+    return string.split("").reverse("").join("")  
 
 }
 console.log(reversedString("helloword"))
