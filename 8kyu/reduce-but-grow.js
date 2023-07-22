@@ -4,7 +4,7 @@
 // my solution
 
 function grow(x){
-    let result         // create a variable to hold your result
+    let result  = 1       // create a variable to hold your result
     for(let i = 0; i < x.length; i++){ // loop through the items in the array
        result *= x[i]           // multiply each iteration in order and assign it to variable 'result'
     }
