@@ -8,7 +8,6 @@
 
 function sentenceSmash(word){
 
-    let arrayWords = word.join(" ")
-    return arrayWords
+    return word.join(" ")
 }
-console.log(sentenceSmash(["Hello", "my", "mother", "is", "cool"]))
+console.log(sentenceSmash(["Hello", "my", "mother", "is", "cool"])) // Hello my mother is cool
