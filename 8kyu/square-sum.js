@@ -12,7 +12,7 @@ function squareSum(n) {
     }
     return total
 }
-console.log(squareSum([1, 2, 2]))
+console.log(squareSum([1, 2, 2])) // 9
 
 
 // second solution
@@ -23,4 +23,4 @@ function squareSum(n) {
     }
     return total                  // return total
 }
-console.log(squareSum([1, 2, 2]))
+console.log(squareSum([1, 2, 2])) // 9
