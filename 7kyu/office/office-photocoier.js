@@ -15,7 +15,6 @@ function broken(string) {
       res += "1";
     } else {
       res += "0";
-    }
   }
   return res;
 }
